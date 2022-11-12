@@ -1,0 +1,9 @@
+C:\Users\gabyb\Desktop\UTM.A2.TW\WorldVision\WorldVision.Domain\bin\Debug\eUseControl.Domain.dll
+C:\Users\gabyb\Desktop\UTM.A2.TW\WorldVision\WorldVision.Domain\bin\Debug\eUseControl.Domain.pdb
+C:\Users\gabyb\Desktop\UTM.A2.TW\WorldVision\WorldVision.Domain\bin\Debug\eUseControl.Helpers.dll
+C:\Users\gabyb\Desktop\UTM.A2.TW\WorldVision\WorldVision.Domain\bin\Debug\eUseControl.Helpers.pdb
+C:\Users\gabyb\Desktop\UTM.A2.TW\WorldVision\WorldVision.Domain\obj\Debug\WorldVision.Domain.csproj.AssemblyReference.cache
+C:\Users\gabyb\Desktop\UTM.A2.TW\WorldVision\WorldVision.Domain\obj\Debug\WorldVision.Domain.csproj.CoreCompileInputs.cache
+C:\Users\gabyb\Desktop\UTM.A2.TW\WorldVision\WorldVision.Domain\obj\Debug\WorldVision.Domain.csproj.CopyComplete
+C:\Users\gabyb\Desktop\UTM.A2.TW\WorldVision\WorldVision.Domain\obj\Debug\eUseControl.Domain.dll
+C:\Users\gabyb\Desktop\UTM.A2.TW\WorldVision\WorldVision.Domain\obj\Debug\eUseControl.Domain.pdb
