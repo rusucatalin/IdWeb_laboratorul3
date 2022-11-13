@@ -6,8 +6,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using WorldVision.Attributes;
-using WorldVision.BusinessLogic.DBModel;
-using WorldVision.BusinessLogic.Interfaces;
+using WorldVision.BussinesLogic.DBModel;
+using WorldVision.BussinesLogic.Interfaces;
 using WorldVision.Domain.Entities.Images;
 using WorldVision.Models.World;
 

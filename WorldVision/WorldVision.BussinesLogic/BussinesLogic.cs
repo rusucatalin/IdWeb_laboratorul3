@@ -1,5 +1,5 @@
-﻿using WorldVision.BusinessLogic.Interfaces;
-using WorldVision.BusinessLogic.LoginBL;
+﻿using WorldVision.BussinesLogic.Interfaces;
+using WorldVision.BussinesLogic.LoginBL;
 using WorldVision.BussinesLogic.Interfaces;
 
 namespace WorldVision.BussinesLogic

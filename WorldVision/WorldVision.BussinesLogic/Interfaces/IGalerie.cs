@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WorldVision.Domain.Entities.Images;
 
-namespace WorldVision.BusinessLogic.Interfaces
+namespace WorldVision.BussinesLogic.Interfaces
 {
     public interface IGalerie
     {

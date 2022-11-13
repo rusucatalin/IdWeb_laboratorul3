@@ -5,8 +5,9 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using AutoMapper;
-using WorldVision.BusinessLogic.DBModel;
+using RestSharp;
 using WorldVision.BussinesLogic.DBModel;
+
 using WorldVision.Domain.Entities.Images;
 using WorldVision.Domain.Entities.User;
 using WorldVision.Helpers;

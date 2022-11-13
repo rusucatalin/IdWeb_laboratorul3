@@ -6,11 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 using WorldVision.Domain.Entities.Images;
 
-namespace WorldVision.BusinessLogic.DBModel
+namespace WorldVision.BussinesLogic.DBModel
 {
     public class ImageContext : DbContext
     {
-        public ImageContext() : base("name = catalinBaza")
+        public ImageContext() : base("name = Rusu")
         {
         }
 
