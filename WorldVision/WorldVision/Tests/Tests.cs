@@ -13,7 +13,7 @@ namespace WorldVision.Tests
     {
         GalerieBL galerieBl = new GalerieBL();
 
-        [TestCase] //verifica daca se extrag date din baza de date
+        [TestCase] //verify if data was exyraget from DB
         public void Test1()
         {
             var result = galerieBl.GetGalerieData().FirstOrDefault();
@@ -22,31 +22,31 @@ namespace WorldVision.Tests
 
 
 
-        [TestCase]   //registrare
+        [TestCase]   //register
         public void Test2()
         {
             var bl = new BussinesLogic.BussinesLogic();
             var _session = bl.GetSessionBL();
             URegisterData data = new URegisterData
             {
-                Email = "email@mail.rui",
-                Credential = "alahakbar",
-                Password = "1234567890",
+                Email = "email@mail.ru",
+                Credential = "User",
+                Password = "password",
                 LoginDataTime = DateTime.Now
             };
 
             var userLogin = _session.UserRegister(data);
             Assert.True(userLogin.Status);
         }
-        [TestCase]   //logarea
+        [TestCase]   //login
         public void Test3()
         {
             var bl = new BussinesLogic.BussinesLogic();
             var _session = bl.GetSessionBL();
             ULoginData data = new ULoginData
             {
-                Credetial = "alahakbar",
-                Password = "1234567890",
+                Credetial = "User2",
+                Password = "passwrod2",
                 LoginDataTime = DateTime.Now
             };
 
