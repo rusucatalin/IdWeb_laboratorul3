@@ -34,7 +34,7 @@ namespace WorldVision.BussinesLogic.Core
             {
                 //user = db.Users.FirstOrDefault(u => u.Username == data.Credential);
                 db.Users.Add(user);
-               db.SaveChanges();
+                db.SaveChanges();
             }
             return new ULoginResp { Status = true };
         }

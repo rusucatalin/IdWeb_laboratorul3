@@ -5,7 +5,7 @@ namespace WorldVision.BussinesLogic.DBModel
 {
     public class SessionContext : DbContext
     {
-        public SessionContext() : base("name=catalinBaza")
+        public SessionContext() : base("name=eUseControl")
         {
         }
 

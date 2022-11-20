@@ -5,8 +5,7 @@ namespace WorldVision.BussinesLogic.DBModel
 {
     class UserContext : DbContext
     {
-        public UserContext() : 
-            base("name=catalinBaza") // connectionstring name define in your web.config
+        public UserContext() : base("name=eUseControl") // connectionstring name define in your web.config
         {
         }
 

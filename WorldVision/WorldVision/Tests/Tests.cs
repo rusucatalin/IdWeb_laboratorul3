@@ -2,42 +2,43 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 using WorldVision.BussinesLogic.LoginBL;
 using WorldVision.Domain.Entities.User;
+using System.Runtime.ExceptionServices;
+using System.Reflection;
 
 namespace WorldVision.Tests
 {
     [TestFixture]
     public class Tests
     {
-        GalerieBL galerieBl = new GalerieBL();
-
         [TestCase] //verify if data was exyraget from DB
         public void Test1()
         {
+            GalerieBL galerieBl = new GalerieBL();
             var result = galerieBl.GetGalerieData().FirstOrDefault();
             Assert.NotNull(result);
         }
 
-
-
         [TestCase]   //register
-        public void Test2()
+        public async Task Test2()
         {
             var bl = new BussinesLogic.BussinesLogic();
             var _session = bl.GetSessionBL();
             URegisterData data = new URegisterData
             {
-                Email = "email@mail.ru",
-                Credential = "User",
-                Password = "password",
+                Email = "Unaalta@getnada.com",
+                Credential = "Administrator",
+                Password = "qwerty1234",
                 LoginDataTime = DateTime.Now
             };
 
             var userLogin = _session.UserRegister(data);
             Assert.True(userLogin.Status);
         }
+
         [TestCase]   //login
         public void Test3()
         {
@@ -45,8 +46,8 @@ namespace WorldVision.Tests
             var _session = bl.GetSessionBL();
             ULoginData data = new ULoginData
             {
-                Credetial = "User2",
-                Password = "passwrod2",
+                Credetial = "Administrator",
+                Password = "qwerty1234",
                 LoginDataTime = DateTime.Now
             };
 

@@ -10,7 +10,7 @@ namespace WorldVision.BussinesLogic.DBModel
 {
     public class ImageContext : DbContext
     {
-        public ImageContext() : base("name = Rusu")
+        public ImageContext() : base("name = eUseControl")
         {
         }
 
